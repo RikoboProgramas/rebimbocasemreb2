@@ -596,60 +596,79 @@ local FormsList = {
 }
 
 local quests = {{
-    name = "Vegetable (GoD in-training)",
-    nickname = "Vegetable (GoD in-training)",
-    requiredValue = 150000001,
-    endRange = 210000000,
-    planet = "Bills"
+    name = "X Fighter Trainer",
+    nickname = "X Fighter",
+    requiredValue = 0,
+    endRange = 30000,
+    planet = "Earth"
 }, {
-    name = "Wukong (Omen)",
-    nickname = "Wukong (Omen)",
-    requiredValue = 210000001,
-    endRange = 600000000,
-    planet = "Bills"
+    name = "Klirin",
+    nickname = "Klirin",
+    requiredValue = 30001,
+    endRange = 100000,
+    planet = "Earth"
 }, {
-    name = "Vills (50%)",
-    nickname = "Vills (50%)",
-    requiredValue = 300000001,
-    endRange = 250000000,
-    planet = "Bills"
+    name = "Radish",
+    nickname = "Radish",
+    requiredValue = 100001,
+    endRange = 200000,
+    planet = "Earth"
 }, {
-    name = "Vis (20%)",
-    nickname = "Vis (20%)",
-    requiredValue = 250000001,
-    endRange = 1000000000,
-    planet = "Bills"
+    name = "Mapa",
+    nickname = "Mapa",
+    requiredValue = 200001,
+    endRange = 400000,
+    planet = "Earth"
 }, {
-    name = "Vegetable (LBSSJ4)",
-    nickname = "Vegetable (LBSSJ4)",
-    requiredValue = 1000000001,
-    endRange = 2500000000,
-    planet = "Bills"
+    name = "Top X Fighter",
+    nickname = "X Fighter Master",
+    requiredValue = 400001,
+    endRange = 750000,
+    planet = "Earth"
 }, {
-    name = "Wukong (LBSSJ4)",
-    nickname = "Wukong (LBSSJ4)",
-    requiredValue = 2500000001,
-    endRange = 3500000000,
-    planet = "Bills"
+    name = "Super Vegetable",
+    nickname = "Super Vegetable",
+    requiredValue = 750001,
+    endRange = 1000000,
+    planet = "Earth"
 }, {
-    name = "Vekuta (LBSSJ4)",
-    nickname = "Vekuta (LBSSJ4)",
-    requiredValue = 3500000001,
-    endRange = 6500000000,
-    planet = "Bills"
+    name = "Chilly",
+    nickname = "Chilly",
+    requiredValue = 100001,
+    endRange = 1000000,
+    planet = "Earth"
 }, {
-    name = "Wukong Rose",
-    nickname = "Wukong Rose",
-    requiredValue = 6500000001,
-    endRange = 12000000000,
-    planet = "Bills"
+    name = "Perfect Atom",
+    nickname = "Perfect Atom",
+    requiredValue = 1000001,
+    endRange = 9100000,
+    planet = "Earth"
 }, {
-    name = "Vekuta (SSJBUI)",
-    nickname = "Vekuta (SSJBUI)",
-    requiredValue = 12000000001,
-    endRange = 2000000000000000000,
-    planet = "Bills"
+    name = "SSJ2 Wukong",
+    nickname = "SSJ2 Wukong",
+    requiredValue = 9100001,
+    endRange = 10000000,
+    planet = "Earth"
+}, {
+    name = "SSJB Wukong",
+    nickname = "SSJB Wukong",
+    requiredValue = 10000001,
+    endRange = 100000000,
+    planet = "Earth"
+}, {
+    name = "Broccoli",
+    nickname = "Broccoli",
+    requiredValue = 30500001,
+    endRange = 2000000000000,
+    planet = "Earth"
+}, {
+    name = "SSJG Kakata",
+    nickname = "SSJG Kakata",
+    requiredValue = 100000000,
+    endRange = 2000000000000,
+    planet = "Earth"
 }}
+
 
 function target()
     targetted = game.Players.LocalPlayer.name
